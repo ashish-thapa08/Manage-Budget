@@ -1,0 +1,17 @@
+.glow{
+    animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+    0% {
+      background-color: #1a3ea1;
+      box-shadow: 0 0 3px #3d5579;
+    }
+    50% {
+      background-color: #3673cf;
+      box-shadow: 0 0 15px #0b5cd6;
+    }
+    100% {
+      background-color: #3f79d1;
+      box-shadow: 0 0 5px #186ae6;
+    }
+  }

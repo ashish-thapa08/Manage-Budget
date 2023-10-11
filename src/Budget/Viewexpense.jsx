@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Modal from 'react-bootstrap/Modal';
 export default function Viewexpense({ load, data, index }) {
+    //console.log(load,data,index)
     const [show, setShow] = useState(load);
     let [expense, setExpense] = useState([]);
     const handleClose = () => setShow(false);
